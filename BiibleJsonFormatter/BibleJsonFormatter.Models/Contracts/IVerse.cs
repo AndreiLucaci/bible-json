@@ -1,4 +1,4 @@
-﻿using BibeJson.Infrastructure.Contracts;
+﻿using BibleJson.Infrastructure.Contracts;
 
 namespace BibleJson.Models.Contracts
 {
