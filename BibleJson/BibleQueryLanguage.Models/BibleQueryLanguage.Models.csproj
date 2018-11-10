@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BibeJsonFormatter.Infrastructure\BibleJson.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
