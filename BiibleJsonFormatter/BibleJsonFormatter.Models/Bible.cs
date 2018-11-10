@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using BibleJsonFormatter.Models.Contracts;
+using BibleJson.Models.Contracts;
 using Newtonsoft.Json;
 
-namespace BibleJsonFormatter.Models
+namespace BibleJson.Models
 {
     public class Bible : IBible
     {

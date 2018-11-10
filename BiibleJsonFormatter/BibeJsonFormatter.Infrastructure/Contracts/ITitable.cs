@@ -1,4 +1,4 @@
-﻿namespace BibeJsonFormatter.Infrastructure.Contracts
+﻿namespace BibleJson.Infrastructure.Contracts
 {
     public interface ITitable
     {

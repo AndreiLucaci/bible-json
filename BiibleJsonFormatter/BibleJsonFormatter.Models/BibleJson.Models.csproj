@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BibeJsonFormatter.Infrastructure\BibeJsonFormatter.Infrastructure.csproj" />
+    <ProjectReference Include="..\BibeJsonFormatter.Infrastructure\BibleJson.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

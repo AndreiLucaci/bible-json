@@ -1,4 +1,4 @@
-﻿using BibleJsonFormatter.Models.Contracts;
+﻿using BibleJson.Models.Contracts;
 
 namespace BibleJsonFormatter.Engine.Contracts
 {
