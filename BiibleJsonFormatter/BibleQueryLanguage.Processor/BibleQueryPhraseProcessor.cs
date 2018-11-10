@@ -7,6 +7,8 @@ namespace BibleQueryLanguage.Processor
 {
     public class BibleQueryPhraseProcessor : IBibleQueryPhraseProcessor
     {
+        private const char Separator = ';';
+
         public IBibleQueryPhrase Process(string input)
         {
             if (!string.IsNullOrEmpty(input))
@@ -15,8 +17,8 @@ namespace BibleQueryLanguage.Processor
                 {
                     OriginalText = input
                 };
-
-                var parts = input.Split(';').Select(i => i.Trim());
+                
+                var parts = input.Split(Separator).Select(i => i.Trim());
 
                 foreach (var part in parts)
                 {
