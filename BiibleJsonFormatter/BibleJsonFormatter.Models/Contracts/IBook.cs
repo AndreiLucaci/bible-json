@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
+using BibeJsonFormatter.Infrastructure.Contracts;
 
-namespace BibleJsonFormatter.Engine.Contracts.BibleContracts
+namespace BibleJsonFormatter.Models.Contracts
 {
     public interface IBook : ICountable, ICollectionable<IChapter>, ITitable, ISubTitable
     {

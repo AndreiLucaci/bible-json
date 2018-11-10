@@ -1,6 +1,5 @@
-﻿using BibleJsonFormatter.Contracts.Engines;
-using BibleJsonFormatter.Engine;
-using BibleJsonFormatter.Engine.Contracts.Engines;
+﻿using BibleJsonFormatter.Engine;
+using BibleJsonFormatter.Engine.Contracts;
 using BibleJsonFormatter.Engine.Engines;
 using Microsoft.Extensions.DependencyInjection;
 

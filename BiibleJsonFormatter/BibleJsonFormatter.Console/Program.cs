@@ -2,7 +2,7 @@
 using System.IO;
 using System.Threading.Tasks;
 using BibleJsonFormatter.Console.DependencyInjection;
-using BibleJsonFormatter.Contracts.Engines;
+using BibleJsonFormatter.Engine.Contracts;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
 

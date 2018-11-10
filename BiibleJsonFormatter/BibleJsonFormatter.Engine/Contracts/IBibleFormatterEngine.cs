@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
-using BibleJsonFormatter.Engine.Contracts.BibleContracts;
+using BibleJsonFormatter.Models.Contracts;
 
-namespace BibleJsonFormatter.Contracts.Engines
+namespace BibleJsonFormatter.Engine.Contracts
 {
     public interface IBibleFormatterEngine
     {

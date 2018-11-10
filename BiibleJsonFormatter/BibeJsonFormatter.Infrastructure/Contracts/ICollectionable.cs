@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace BibleJsonFormatter.Engine.Contracts
+namespace BibeJsonFormatter.Infrastructure.Contracts
 {
     public interface ICollectionable <T>
     {
         [JsonIgnore]
-        IList<T> Collection { get; }
+        IList<T> Collection { get; set; }
     }
 }

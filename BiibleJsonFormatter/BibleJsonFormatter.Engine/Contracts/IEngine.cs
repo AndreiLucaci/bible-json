@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace BibleJsonFormatter.Engine.Contracts.Engines
+namespace BibleJsonFormatter.Engine.Contracts
 {
     public interface IEngine<T>
     {

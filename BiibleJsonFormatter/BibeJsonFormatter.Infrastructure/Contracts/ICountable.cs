@@ -1,4 +1,4 @@
-﻿namespace BibleJsonFormatter.Engine.Contracts
+﻿namespace BibeJsonFormatter.Infrastructure.Contracts
 {
     public interface ICountable
     {
