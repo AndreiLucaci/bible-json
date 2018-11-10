@@ -12,7 +12,11 @@ namespace BibleJsonFormatter.Models
 
         public string SubTitle { get; set; }
 
-        public IList<IChapter> Chapters => Collection;
+        public IList<IChapter> Chapters
+        {
+            get => Collection;
+            set => Collection = value;
+        }
 
         [JsonIgnore]
         public IList<IChapter> Collection { get; set; } = new List<IChapter>();

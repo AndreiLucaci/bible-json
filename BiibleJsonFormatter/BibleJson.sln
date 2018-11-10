@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibleJsonFormatter.Console", "BibleJsonFormatter.Console\BibleJsonFormatter.Console.csproj", "{B390970B-456A-40EA-BD45-430E84602E0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibleJsonFormatter.Engine", "BibleJsonFormatter.Engine\BibleJsonFormatter.Engine.csproj", "{AF7DA073-A24E-4585-8F9D-0767C3E54282}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibleJsonFormatter.Models", "BibleJsonFormatter.Models\BibleJsonFormatter.Models.csproj", "{3061D908-6A0D-444F-8A4C-484BDE3892CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibeJsonFormatter.Infrastructure", "BibeJsonFormatter.Infrastructure\BibeJsonFormatter.Infrastructure.csproj", "{EB9E8D51-04E5-4666-B5EE-E518417F4CBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B390970B-456A-40EA-BD45-430E84602E0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B390970B-456A-40EA-BD45-430E84602E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B390970B-456A-40EA-BD45-430E84602E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B390970B-456A-40EA-BD45-430E84602E0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF7DA073-A24E-4585-8F9D-0767C3E54282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF7DA073-A24E-4585-8F9D-0767C3E54282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF7DA073-A24E-4585-8F9D-0767C3E54282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF7DA073-A24E-4585-8F9D-0767C3E54282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3061D908-6A0D-444F-8A4C-484BDE3892CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3061D908-6A0D-444F-8A4C-484BDE3892CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3061D908-6A0D-444F-8A4C-484BDE3892CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3061D908-6A0D-444F-8A4C-484BDE3892CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB9E8D51-04E5-4666-B5EE-E518417F4CBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB9E8D51-04E5-4666-B5EE-E518417F4CBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB9E8D51-04E5-4666-B5EE-E518417F4CBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB9E8D51-04E5-4666-B5EE-E518417F4CBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDAC3E50-4EF8-42CA-B737-32191E93EF5A}
+	EndGlobalSection
+EndGlobal

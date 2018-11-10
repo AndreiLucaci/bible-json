@@ -5,6 +5,6 @@ namespace BibleJsonFormatter.Models.Contracts
 {
     public interface IBible : ICollectionable<IBook>, ITitable
     {
-        IList<IBook> Books { get; }
+        IList<IBook> Books { get; set; }
     }
 }

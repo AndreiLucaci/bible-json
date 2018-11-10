@@ -11,8 +11,12 @@ namespace BibleJsonFormatter.Models
         public string SubTitle { get; set; }
 
         public int? Number { get; set; }
-
-        public IList<IVerse> Verses => Collection;
+        
+        public IList<IVerse> Verses
+        {
+            get => Collection;
+            set => Collection = value;
+        }
 
         [JsonIgnore]
         public IList<IVerse> Collection { get; set; } = new List<IVerse>();

@@ -8,7 +8,11 @@ namespace BibleJsonFormatter.Models
     {
         public string Title { get; set; } = "Bibla";
 
-        public IList<IBook> Books => Collection;
+        public IList<IBook> Books
+        {
+            get => Collection;
+            set => Collection = value;
+        } 
 
         [JsonIgnore]
         public IList<IBook> Collection { get; set; } = new List<IBook>();
