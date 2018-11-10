@@ -1,4 +1,4 @@
-﻿namespace BibeJsonFormatter.Infrastructure.Contracts
+﻿namespace BibeJson.Infrastructure.Contracts
 {
     public interface ITextable
     {

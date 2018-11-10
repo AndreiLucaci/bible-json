@@ -1,6 +1,6 @@
-﻿using BibleJsonFormatter.Models.Contracts;
+﻿using BibleJson.Models.Contracts;
 
-namespace BibleJsonFormatter.Models
+namespace BibleJson.Models
 {
     public class Verse : IVerse
     {

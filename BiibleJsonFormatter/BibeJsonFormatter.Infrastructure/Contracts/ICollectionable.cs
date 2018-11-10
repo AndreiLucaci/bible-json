@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace BibeJsonFormatter.Infrastructure.Contracts
+namespace BibeJson.Infrastructure.Contracts
 {
     public interface ICollectionable <T>
     {

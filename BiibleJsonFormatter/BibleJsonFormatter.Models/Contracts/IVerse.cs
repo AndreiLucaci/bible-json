@@ -1,6 +1,6 @@
-﻿using BibeJsonFormatter.Infrastructure.Contracts;
+﻿using BibeJson.Infrastructure.Contracts;
 
-namespace BibleJsonFormatter.Models.Contracts
+namespace BibleJson.Models.Contracts
 {
     public interface IVerse : ICountable, ITextable
     {
