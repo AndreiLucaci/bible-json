@@ -1,8 +1,8 @@
 ﻿using System.IO;
 using System.Threading.Tasks;
-using BibleJsonFormatter.Engine.Contracts.BibleContracts;
-using BibleJsonFormatter.Engine.Contracts.Engines;
-using BibleJsonFormatter.Engine.Models;
+using BibleJsonFormatter.Engine.Contracts;
+using BibleJsonFormatter.Models;
+using BibleJsonFormatter.Models.Contracts;
 
 namespace BibleJsonFormatter.Engine.Engines
 {

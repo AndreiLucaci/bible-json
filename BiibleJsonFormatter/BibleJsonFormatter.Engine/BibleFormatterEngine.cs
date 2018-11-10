@@ -2,10 +2,9 @@
 using System.IO;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using BibleJsonFormatter.Contracts.Engines;
-using BibleJsonFormatter.Engine.Contracts.BibleContracts;
-using BibleJsonFormatter.Engine.Contracts.Engines;
-using BibleJsonFormatter.Engine.Models;
+using BibleJsonFormatter.Engine.Contracts;
+using BibleJsonFormatter.Models;
+using BibleJsonFormatter.Models.Contracts;
 
 namespace BibleJsonFormatter.Engine
 {

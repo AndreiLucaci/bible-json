@@ -1,10 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Library</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <ApplicationIcon />
-    <StartupObject />
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,7 +10,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BibeJsonFormatter.Infrastructure\BibeJsonFormatter.Infrastructure.csproj" />
-    <ProjectReference Include="..\BibleJsonFormatter.Models\BibleJsonFormatter.Models.csproj" />
   </ItemGroup>
 
 </Project>
