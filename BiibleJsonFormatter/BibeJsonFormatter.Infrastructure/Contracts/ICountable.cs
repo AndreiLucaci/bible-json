@@ -1,4 +1,4 @@
-﻿namespace BibeJson.Infrastructure.Contracts
+﻿namespace BibleJson.Infrastructure.Contracts
 {
     public interface ICountable
     {

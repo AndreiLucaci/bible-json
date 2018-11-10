@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibleJsonFormatter.Engine",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibleJson.Models", "BibleJsonFormatter.Models\BibleJson.Models.csproj", "{3061D908-6A0D-444F-8A4C-484BDE3892CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibeJson.Infrastructure", "BibeJsonFormatter.Infrastructure\BibeJson.Infrastructure.csproj", "{EB9E8D51-04E5-4666-B5EE-E518417F4CBA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibleJson.Infrastructure", "BibeJsonFormatter.Infrastructure\BibleJson.Infrastructure.csproj", "{EB9E8D51-04E5-4666-B5EE-E518417F4CBA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Formatter", "Formatter", "{ABF45A68-77FB-4718-A365-AD6660511C92}"
 EndProject
